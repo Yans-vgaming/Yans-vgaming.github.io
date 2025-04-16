@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Silvosa - Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    :root {
+      --primary-color: #A3DAD9; 
+      --accent-color: #F2A7B3; 
+      --text-color: #4A4A4A;
+      --link-color: #D7798D;
+      --section-light: #FDEFF2; 
+    }
+
+    body {
+      color: var(--text-color);
+      font-family: 'Segoe UI', sans-serif;
+      background-color: white;
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 20px;
+    }
+
+    header {
+      background-color: var(--primary-color);
+      color: var(--text-color);
+    }
+
+    section:nth-of-type(even) {
+      background-color: var(--section-light);
+    }
+
+    section {
+      padding: 60px 0;
+    }
+
+    .btn-primary {
+      background-color: var(--accent-color);
+      border: none;
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background-color: #e68ea0;
+    }
+
+    a {
+      color: var(--link-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: var(--primary-color);
+      color: var(--text-color);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="text-center py-5">
+    <div class="container">
+      <img src="two by two.jpg" alt="Your Photo" class="profile-pic shadow">
+      <h1 class="display-4">Juliana Silvosa</h1>
+      <p class="lead">Aspiring Web Developer | Information Systems Student | Live, Laugh, Love</p>
+    </div>
+  </header>
+
+  <!-- Education -->
+  <section id="education">
+    <div class="container">
+      <h2>Education</h2>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <strong>Information Systems Student</strong><br>
+          Ateneo de Davao University - 2022–2025
+        </li>
+        <li class="list-group-item">
+          <strong>With Honors - STEM Pre-Sci</strong><br>
+          Ateneo de Davao University Senior High School - 2020-2022
+        </li>
+        <li class="list-group-item">
+          <strong>With High Honors</strong><br>
+          San Pedro College - Basic Education Department - 2018 - 2020
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Software Engineering Project</h5>
+              <p class="card-text">Along with my groupmates Charles Mendrico and Ken Modequillo, we created an ERP System for a lumber company. </p>
+            </div>
+          </div>
+        </div>
+        <!-- Add more projects here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">HTML, CSS, JavaScript</li>
+        <li class="list-group-item">Bootstrap, React</li>
+        <li class="list-group-item">Python, Django</li>
+        <li class="list-group-item">Git & GitHub</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container text-center">
+      <h2>Contact</h2>
+      <p>Email: jmmsilvosa@addu.edu.ph</p>
+      <p>GitHub: <a href="#">github.com/julianasil</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-3">
+    <div class="container">
+      <small>&copy; 2025 Your Full Name. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
